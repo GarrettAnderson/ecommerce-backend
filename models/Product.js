@@ -13,12 +13,13 @@ Product.init(
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      autoincrement: true,
+      autoIncrement: true,
       primaryKey: true
     },
     product_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
+      defaultValue: 'Product Name',
     },
     price: {
       type: DataTypes.DECIMAL,

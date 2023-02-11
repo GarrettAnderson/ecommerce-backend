@@ -5,6 +5,7 @@ const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
 // Products belongsTo Category
+// a category has many products
 
 // Categories have many Products
 
